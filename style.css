@@ -13,6 +13,11 @@ body {
     background: #f1f1f1;
 }
 
+select {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
 
 /* STATUS CIRCLES */
 .circle-1, .circle-2, .circle-3 {
@@ -76,4 +81,13 @@ body {
 .table-header h3 {
     padding: 15px;
     font-size: 1.5rem;
+}
+
+/* TABLE FOOTER */
+.table-footer {
+    background: rgb(24,24,24);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 0 0 10px 10px;
 }
