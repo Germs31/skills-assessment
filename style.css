@@ -44,18 +44,6 @@ select {
     display: none;
 }
 
-.phone.is-visable-2 {
-    display: block;
-}
-
-.email {
-    display: block;
-}
-
-.email.is-visable-2 {
-    display: none;
-}
-
 
 /* TABLE STYLES */
 /* MAIN CONTAINER */
