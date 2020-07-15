@@ -83,6 +83,43 @@ select {
     font-size: 1.5rem;
 }
 
+/* TABLE */
+
+.table {
+    display: table;
+}
+
+.table-row{
+    display: table-row;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-row.first{
+    background: rgb(25,25,25);
+}
+
+.table-row.second{
+    background: rgb(20,20,20)
+}
+
+/* TABLE CELL */
+.table-cell {
+    display: table-cell;
+    height: 40px;
+}
+
+.table-cell:nth-child(1) {
+    display: flex;
+    align-items: center;
+    width: 130px;
+}
+.table-cell:nth-child(2) {
+    width: 100%;
+    text-align: left;
+    color: #555;
+}
+
 /* TABLE FOOTER */
 .table-footer {
     background: rgb(24,24,24);
