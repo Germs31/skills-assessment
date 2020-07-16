@@ -20,3 +20,12 @@ const optionSelector = () => {
         });
     }
 }
+
+const info = document.querySelectorAll(".table-row");
+info.forEach(item => {
+    item.addEventListener('click', (e) => {
+        
+        let infoCtx = document.querySelector('.contact-info');
+        infoCtx.classList.toggle('is-visable');
+    })
+})

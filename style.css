@@ -39,6 +39,36 @@ select {
     background: rgb(255,0,0);
 }
 
+/* Contact Info Overlay */
+.contact-info {
+    display: none;
+    padding: 50px;
+}
+
+.contact-info a {
+    color: teal;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info.is-visable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(56,56,56);
+    color: #fff;
+}
+
 /* Phone & Email */
 .phone {
     display: none;
@@ -50,6 +80,8 @@ select {
 .contact-container {
     width: 25%;
     border-radius: 10px;
+    border: 1px solid #333;
+    -webkit-box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
     box-shadow: 4px 6px 10px rgba(0,0,0,0.5);
 }
 
@@ -83,11 +115,11 @@ select {
     cursor: pointer;
 }
 
-.table-row.first{
+.table-row:nth-child(odd){
     background: rgb(25,25,25);
 }
 
-.table-row.second{
+.table-row:nth-child(even){
     background: rgb(20,20,20)
 }
 
@@ -115,4 +147,6 @@ select {
     display: flex;
     justify-content: flex-end;
     border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 10px rgba(0,0,0,0.5);
 }
