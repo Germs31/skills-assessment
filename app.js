@@ -21,11 +21,32 @@ const optionSelector = () => {
     }
 }
 
+
+// const info = document.querySelectorAll(".table-row");
+// info.forEach(item => {
+//     item.addEventListener('click', () => {
+//         // if(true){
+//         //     if(item.children[1].childNodes[5]){
+//         //         let infoCtx = document.querySelectorAll('.contact-info');
+//         //         infoCtx.forEach(item => {
+                    
+//         //         })
+//         //     }
+//         // }
+//         let infoCtx = document.querySelector('.contact-info');
+//         infoCtx.classList.toggle('is-visable');
+//     })
+// })
+
+
 const info = document.querySelectorAll(".table-row");
 info.forEach(item => {
-    item.addEventListener('click', (e) => {
-        
+    item.addEventListener('click', () => {
         let infoCtx = document.querySelector('.contact-info');
         infoCtx.classList.toggle('is-visable');
     })
 })
+
+
+
+

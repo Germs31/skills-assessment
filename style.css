@@ -42,7 +42,7 @@ select {
 /* Contact Info Overlay */
 .contact-info {
     display: none;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .contact-info a {
@@ -60,7 +60,8 @@ select {
     justify-content: center;
     align-items: center;
     position: absolute;
-    z-index: 0;
+    width: 100%;
+    z-index: 1;
     top:0;
     left: 0;
     bottom: 0;
